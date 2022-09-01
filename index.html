@@ -15,18 +15,23 @@
   </head>
   <body>
     <div class="container">
+      <div class="weather-app-wrapper">
       <div class="weather-app">
+        <div class="overview">
       <h1>Wuppertal</h1>
       <ul>
         <li>Friday 8:00</li>
         <li>Clear</li>
+        </div>
         <div class="row">
           <div class="col-6">
+            <div class="d-flex weather-temperature">
             <img
               src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
               alt="Cloudy"
             />
-            18° C/F
+            <strong>18</strong><span class="units">°C | °F</span>
+          </div>
           </div>
           <div class="col-6">
             <ul>
@@ -36,7 +41,8 @@
             </ul>
           </div>
         </div>
-        <small>
+        </div>
+         <small>
           <a href="https://github.com/vi-chesnova/weather-app" target="_blank">Open-source code</a> by Victoria Chesnova
         </small>
         </div>
