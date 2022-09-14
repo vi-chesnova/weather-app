@@ -36,16 +36,16 @@ function displayForecast(response) {
 
   let forecastHTML = `<div class="row">`;
   forecast.forEach(function (forecastDay, index) {
-    if (index < 5) {
+    if (index < 6) {
       forecastHTML =
         forecastHTML +
         `
-      <div class="col-2">
+      <div class="col-6">
         <div class="weather-forecast-date">${formatDate(forecastDay.dt)}</div>
           <img
           src="src/img/${forecastDay.weather[0].icon}.png"
           alt=""
-          width="42"
+          width="90"
         />
         <div class="forecast-temp">
           <span class="forecast-temp-max"> ${Math.round(
