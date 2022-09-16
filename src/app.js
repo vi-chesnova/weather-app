@@ -41,23 +41,23 @@ function displayForecast(response) {
       forecastHTML =
         forecastHTML +
         `
-      <div class="col-6">
-        <div class="weather-forecast-date">${formatDate(forecastDay.dt)}</div>
+      <div class="col-2">
+        <div class="weather-forecast-date">${formatDay(forecastDay.dt)}</div>
           <img
           src="src/img/${forecastDay.weather[0].icon}.png"
           alt=""
           width="90"
         />
-        <div class="forecast-temp">
-          <span class="forecast-temp-max"> ${Math.round(
+     <div class="weather-forecast-temperatures">
+          <span class="weather-forecast-temperature-max"> ${Math.round(
             forecastDay.temp.max
           )}° </span>
-          <span class="forecast-temp-min"> ${Math.round(
+          <span class="weather-forecast-temperature-min"> ${Math.round(
             forecastDay.temp.min
           )}° </span>
         </div>
       </div>
-      `;
+  `;
     }
   });
 

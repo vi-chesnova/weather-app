@@ -40,28 +40,27 @@
           </form>
           <div class="overview">
             <h1 id="city"></h1>
-            <ul id="main-weather">
+            <ul>
               <li id="date"></li>
               <li id="description"></li>
             </ul>
           </div>
           <img src="" alt="weather-icon" id="icon" />
-          <div class="row">
+          <div class="d-flex weather-temperature">
+            <strong id="temperature"></strong>
+              <span class="units">
+                <a href="#" id="celsius-link" class="active">°C</a> |
+                <a href="#" id="fahrenheit-link">°F</a></span>
+          </div>
+          <div class="container text-center">
+          <div class="row align-items-center">
             <div class="col-6">
-              <div class="d-flex weather-temperature">
-                <strong id="temperature"></strong>
-                  <span class="units">
-                  <a href="#" id="celsius-link" class="active">°C</a> |
-                  <a href="#" id="fahrenheit-link">°F</a></span
-                >
-              </div>
+            <div>Humidity: <span id="humidity"></span>%</div>
             </div>
-            <div class="col-4">
-              <ul id="atmosphere">
-                <li>Humidity: <span id="humidity"></span>%</li>
-                <li>Wind: <span id="wind"></span> m/h</li>
-              </ul>
+            <div class="col-6">
+            <div>Wind: <span id="wind"></span> m/h</div>
             </div>
+          </div>
           </div>
           <div class="weather-forecast" id="forecast"></div>
           </div>
