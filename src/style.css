@@ -29,7 +29,7 @@ a:link {
 }
 
 .weather-app-wrapper {
-  max-width: 500px;
+  max-width: 600px;
   margin: 60px auto;
 }
 
@@ -78,13 +78,18 @@ a:link {
   color: #000;
 }
 
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
 .forecast-date {
-  font-size: 16px;
+  text-align: center;
+  font-size: 14px;
   opacity: 0.5;
 }
 
 .forecast-temp {
-  font-size: 13px;
+  font-size: 10px;
   opacity: 0.5;
 }
 
