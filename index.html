@@ -30,11 +30,7 @@
                 />
               </div>
               <div class="col-4">
-                <input
-                  type="submit"
-                  value="Search"
-                  class="btn btn-outline-secondary searchbutton"
-                />
+                <input type="submit" value="Search" class="btn searchbutton" />
               </div>
             </div>
           </form>
@@ -48,28 +44,30 @@
           <img src="" alt="weather-icon" id="icon" />
           <div class="d-flex weather-temperature">
             <strong id="temperature"></strong>
-              <span class="units">
-                <a href="#" id="celsius-link" class="active">°C</a> |
-                <a href="#" id="fahrenheit-link">°F</a></span>
+            <span class="units">
+              <a href="#" id="celsius-link" class="active">°C</a> |
+              <a href="#" id="fahrenheit-link">°F</a></span
+            >
           </div>
           <div class="container text-center">
-          <div class="row align-items-center">
-            <div class="col-6">
-            <div>Humidity: <span id="humidity"></span>%</div>
+            <div class="row align-items-center">
+              <div class="col-6">
+                <div>Humidity: <span id="humidity"></span>%</div>
+              </div>
+              <div class="col-6">
+                <div>Wind: <span id="wind"></span> km/h</div>
+              </div>
             </div>
-            <div class="col-6">
-            <div>Wind: <span id="wind"></span> km/h</div>
-            </div>
-          </div>
           </div>
           <div class="weather-forecast" id="forecast"></div>
-          </div>
+        </div>
         <small>
           <a href="https://github.com/vi-chesnova/weather-app" target="_blank"
             >Open-source code</a
           >
           by Victoria Chesnova
         </small>
+      </div>
     </div>
     <script src="src/app.js"></script>
   </body>

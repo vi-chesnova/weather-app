@@ -1,5 +1,15 @@
 body {
-  font-family: arial, sans-serif;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  background: url("img/bg.jpg");
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
@@ -25,20 +35,40 @@ li:first-letter {
 
 a:link {
   text-decoration: none;
-  color: #000;
+  color: white;
+}
+
+input.form-control {
+  border: none;
+  outline: none;
+  border-radius: 24px;
+  background: #7c7c7c2b;
+  color: white;
+}
+
+input.searchbutton {
+  border-radius: 24px;
+  border: none;
+  outline: none;
+  background: #7c7c7c2b;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
 }
 
 .weather-app-wrapper {
-  max-width: 600px;
-  margin: 60px auto;
+  max-width: 500px;
+  margin: 30px auto;
 }
 
 .weather-app {
   padding: 20px;
-  border-radius: 15px;
-  background: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
-  border: 1px solid #f3e7e9;
-  overflow: hidden;
+  background: #000000d0;
+  color: white;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 420px;
+  margin: 1em;
 }
 
 .overview {
@@ -75,7 +105,7 @@ a:link {
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
-  color: #000;
+  color: white;
 }
 
 .weather-forecast-temperature-min {
