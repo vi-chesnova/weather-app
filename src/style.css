@@ -109,6 +109,10 @@ input.searchbutton {
   font-size: 13px;
 }
 
+.weather-forecast-temperatures {
+  font-size: 11px;
+}
+
 .weather-forecast-temperature-min {
   opacity: 0.5;
 }
