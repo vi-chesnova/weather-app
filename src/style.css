@@ -68,7 +68,7 @@ input.searchbutton {
   border-radius: 30px;
   width: 100%;
   max-width: 500px;
-  margin: 20px;
+  margin: 0;
 }
 
 .overview {
