@@ -13,29 +13,8 @@
 }
 
 @font-face {
-  font-family: "lorettosemibold";
-  src: url("./font/loretto-semibold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "lorettothin";
-  src: url("./font/loretto-thin-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: "lorettolight";
   src: url("./font/loretto-light-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "lorettoextralight";
-  src: url("./font/loretto-extralight-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -130,6 +109,7 @@ input.searchbutton {
 }
 
 .weather-temperature .units {
+  color: white;
   position: relative;
   font-size: 16px;
 }
@@ -141,6 +121,7 @@ input.searchbutton {
 }
 
 .weather-temperature .active:hover {
+  color: white;
   text-decoration: none;
 }
 
@@ -180,7 +161,7 @@ input.searchbutton {
 #date,
 #description {
   line-height: 20px;
-  font-size: 16px;
+  font-size: 18px;
   display: block;
   margin-bottom: 0;
 }
